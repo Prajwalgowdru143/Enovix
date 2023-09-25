@@ -14,23 +14,23 @@ const NavBar = () => {
             <input
               type="text"
               placeholder="Search"
-              className="bg-white h-10 border border-gray-600 pl-5 pr-10 rounded-full text-sm focus:outline-none focus:ring focus:border-blue-300 w-60"
+              className="bg-white h-10 border border-gray-700 pl-5 pr-10 rounded-md text-sm focus:outline-none focus:ring focus:border-blue-300 w-96"
             />
             <button className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700">
               <Icons.Search className="h-4 w-4" />
             </button>
           </div>
           <div className="flex space-x-4">
-            <a href="/" className="text-black text-xl font-semibold">
+            <a href="/" className="text-black font-bold border-b-4 border-blue-500">
               Home
             </a>
-            <a href="/products" className="text-black">
+            <a href="/products" className="text-black font-bold hover:border-b-4 border-blue-500">
               Products
             </a>
-            <a href="/services" className="text-black">
+            <a href="/services" className="text-black font-bold hover:border-b-4 border-blue-500">
               Services
             </a>
-            <a href="/contacts" className="text-black">
+            <a href="/contacts" className="text-black font-bold hover:border-b-4 border-blue-500">
               Contactus
             </a>
           </div>
